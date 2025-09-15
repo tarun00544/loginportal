@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bharat Heritage - Login</title>
+    <title>Bharat - Login</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -397,30 +397,7 @@
             animation: shake 0.5s;
         }
 
-        /* Demo credentials helper */
-        .demo-helper {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: rgba(218, 165, 32, 0.9);
-            color: #2c1810;
-            padding: 12px 18px;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 12px;
-            font-weight: 600;
-            box-shadow: 0 8px 25px rgba(218, 165, 32, 0.4);
-            transition: all 0.3s ease;
-            z-index: 1000;
-            backdrop-filter: blur(10px);
-            border: 2px solid rgba(255, 215, 0, 0.3);
-        }
-
-        .demo-helper:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 35px rgba(218, 165, 32, 0.6);
-            background: #FFD700;
-        }
+        
 
         /* Additional cultural elements */
         .cultural-border {
@@ -490,12 +467,7 @@
                 font-size: 14px;
             }
 
-            .demo-helper {
-                bottom: 15px;
-                right: 15px;
-                font-size: 11px;
-                padding: 10px 15px;
-            }
+          
         }
 
         @media (max-width: 480px) {
@@ -564,7 +536,7 @@
     <div class="loading-overlay" id="loadingOverlay">
         <div class="loading-content">
             <div class="loading-spinner"></div>
-            <h3>🇮🇳 Redirecting to Bharat Heritage...</h3>
+            <h3>🇮🇳 Redirecting to Bharat...</h3>
             <p>Please wait while we take you to your cultural dashboard</p>
         </div>
     </div>
@@ -574,7 +546,7 @@
             <div class="cultural-border"></div>
             <div class="login-header">
                 <div class="brand-logo">🏛️</div>
-                <h1>Bharat Heritage</h1>
+                <h1>Bharat </h1>
                 <p>Discover India's Cultural Diversity</p>
             </div>
 
@@ -597,7 +569,7 @@
                 </div>
 
                 <button type="submit" class="login-btn" id="loginButton">
-                    Begin Heritage Journey
+                    Begin  Journey
                 </button>
                 
                 <div class="error-message" id="errorMessage"></div>
@@ -624,16 +596,12 @@
             </div>
             
             <div class="signup-link">
-                New to Bharat Heritage?<a href="#" onclick="showSignupMessage()">Create account</a>
+                New to Bharat?<a href="#" onclick="showSignupMessage()">Create account</a>
             </div>
         </div>
     </div>
 
-    <!-- Demo credentials helper -->
-    <div class="demo-helper" onclick="showDemoCredentials()">
-        🎯 Demo Login
-    </div>
-
+   
     <script>
         // Valid credentials for login
         const validCredentials = {
@@ -857,3 +825,4 @@
     </script>
 </body>
 </html>
+
